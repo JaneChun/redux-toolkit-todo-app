@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteToDo } from '../action.js';
+import { deleteToDo } from '../store.js';
 import { Link } from 'react-router-dom';
 
 export default function ToDo(toDo) {
